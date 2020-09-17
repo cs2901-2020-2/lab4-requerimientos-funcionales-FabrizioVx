@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" afterDir="false" />
     </list>
@@ -185,24 +182,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="184" key="GridCell.Tab.0.bottom" timestamp="1600270221917">
-      <screen x="0" y="23" width="1280" height="736" />
+    <state width="1920" height="322" key="GridCell.Tab.0.bottom" timestamp="1600349540407">
+      <screen x="0" y="23" width="1920" height="1016" />
     </state>
     <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.23.1280.736@0.23.1280.736" timestamp="1600270221917" />
-    <state width="1238" height="184" key="GridCell.Tab.0.center" timestamp="1600270221916">
-      <screen x="0" y="23" width="1280" height="736" />
+    <state width="1920" height="322" key="GridCell.Tab.0.bottom/1920.23.1280.777/0.23.1920.1016@0.23.1920.1016" timestamp="1600349540407" />
+    <state width="1920" height="322" key="GridCell.Tab.0.center" timestamp="1600349540383">
+      <screen x="0" y="23" width="1920" height="1016" />
     </state>
     <state width="1238" height="184" key="GridCell.Tab.0.center/0.23.1280.736@0.23.1280.736" timestamp="1600270221916" />
-    <state width="1238" height="184" key="GridCell.Tab.0.left" timestamp="1600270221915">
-      <screen x="0" y="23" width="1280" height="736" />
+    <state width="1920" height="322" key="GridCell.Tab.0.center/1920.23.1280.777/0.23.1920.1016@0.23.1920.1016" timestamp="1600349540383" />
+    <state width="1920" height="322" key="GridCell.Tab.0.left" timestamp="1600349540380">
+      <screen x="0" y="23" width="1920" height="1016" />
     </state>
     <state width="1238" height="184" key="GridCell.Tab.0.left/0.23.1280.736@0.23.1280.736" timestamp="1600270221915" />
-    <state width="1238" height="184" key="GridCell.Tab.0.right" timestamp="1600270221916">
-      <screen x="0" y="23" width="1280" height="736" />
+    <state width="1920" height="322" key="GridCell.Tab.0.left/1920.23.1280.777/0.23.1920.1016@0.23.1920.1016" timestamp="1600349540380" />
+    <state width="1920" height="322" key="GridCell.Tab.0.right" timestamp="1600349540396">
+      <screen x="0" y="23" width="1920" height="1016" />
     </state>
     <state width="1238" height="184" key="GridCell.Tab.0.right/0.23.1280.736@0.23.1280.736" timestamp="1600270221916" />
+    <state width="1920" height="322" key="GridCell.Tab.0.right/1920.23.1280.777/0.23.1920.1016@0.23.1920.1016" timestamp="1600349540396" />
   </component>
   <component name="masterDetails">
     <states>
