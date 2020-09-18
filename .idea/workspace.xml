@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs/lab/TooManyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case1_input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case1_output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case2_input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case2_output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cs/lab/DNASequencerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cs/lab/DNASequencerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="TestNG.DNASequencerTest">
+  <component name="RunManager" selected="TestNG.DNASequencerTest.subSequenceLenCheckTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -109,6 +114,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DNASequencerTest.subSequenceLenCheckTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="lab4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs.lab" />
+      <option name="MAIN_CLASS_NAME" value="cs.lab.DNASequencerTest" />
+      <option name="METHOD_NAME" value="subSequenceLenCheckTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DNASequencerTest.testCase0" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="lab4" />
       <extension name="coverage">
@@ -148,6 +172,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DNASequencerTest.subSequenceLenCheckTest" />
         <item itemvalue="TestNG.DNASequencerTest" />
         <item itemvalue="TestNG.DNASequencerTest.readFile" />
         <item itemvalue="TestNG.DNASequencerTest.testCase0" />
@@ -185,26 +210,50 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1920" height="322" key="GridCell.Tab.0.bottom" timestamp="1600349540407">
-      <screen x="0" y="23" width="1920" height="1016" />
+    <state x="2256" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600356809170">
+      <screen x="1920" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.23.1280.736@0.23.1280.736" timestamp="1600270221917" />
+    <state x="2256" y="220" key="#com.intellij.fileTypes.FileTypeChooser/1920.23.1280.777/0.23.1920.1016@1920.23.1280.777" timestamp="1600356809170" />
+    <state width="1280" height="219" key="GridCell.Tab.0.bottom" timestamp="1600405606958">
+      <screen x="0" y="23" width="1280" height="736" />
+    </state>
+    <state width="1280" height="219" key="GridCell.Tab.0.bottom/0.23.1280.736@0.23.1280.736" timestamp="1600405606958" />
     <state width="1920" height="322" key="GridCell.Tab.0.bottom/1920.23.1280.777/0.23.1920.1016@0.23.1920.1016" timestamp="1600349540407" />
-    <state width="1920" height="322" key="GridCell.Tab.0.center" timestamp="1600349540383">
-      <screen x="0" y="23" width="1920" height="1016" />
+    <state width="1280" height="235" key="GridCell.Tab.0.bottom/1920.23.1280.777/0.23.1920.1016@1920.23.1280.777" timestamp="1600357057601" />
+    <state width="1280" height="219" key="GridCell.Tab.0.center" timestamp="1600405606955">
+      <screen x="0" y="23" width="1280" height="736" />
     </state>
-    <state width="1238" height="184" key="GridCell.Tab.0.center/0.23.1280.736@0.23.1280.736" timestamp="1600270221916" />
+    <state width="1280" height="219" key="GridCell.Tab.0.center/0.23.1280.736@0.23.1280.736" timestamp="1600405606955" />
     <state width="1920" height="322" key="GridCell.Tab.0.center/1920.23.1280.777/0.23.1920.1016@0.23.1920.1016" timestamp="1600349540383" />
-    <state width="1920" height="322" key="GridCell.Tab.0.left" timestamp="1600349540380">
-      <screen x="0" y="23" width="1920" height="1016" />
+    <state width="1280" height="235" key="GridCell.Tab.0.center/1920.23.1280.777/0.23.1920.1016@1920.23.1280.777" timestamp="1600357057598" />
+    <state width="1280" height="219" key="GridCell.Tab.0.left" timestamp="1600405606952">
+      <screen x="0" y="23" width="1280" height="736" />
     </state>
-    <state width="1238" height="184" key="GridCell.Tab.0.left/0.23.1280.736@0.23.1280.736" timestamp="1600270221915" />
+    <state width="1280" height="219" key="GridCell.Tab.0.left/0.23.1280.736@0.23.1280.736" timestamp="1600405606952" />
     <state width="1920" height="322" key="GridCell.Tab.0.left/1920.23.1280.777/0.23.1920.1016@0.23.1920.1016" timestamp="1600349540380" />
-    <state width="1920" height="322" key="GridCell.Tab.0.right" timestamp="1600349540396">
-      <screen x="0" y="23" width="1920" height="1016" />
+    <state width="1280" height="235" key="GridCell.Tab.0.left/1920.23.1280.777/0.23.1920.1016@1920.23.1280.777" timestamp="1600357057596" />
+    <state width="1280" height="219" key="GridCell.Tab.0.right" timestamp="1600405606956">
+      <screen x="0" y="23" width="1280" height="736" />
     </state>
-    <state width="1238" height="184" key="GridCell.Tab.0.right/0.23.1280.736@0.23.1280.736" timestamp="1600270221916" />
+    <state width="1280" height="219" key="GridCell.Tab.0.right/0.23.1280.736@0.23.1280.736" timestamp="1600405606956" />
     <state width="1920" height="322" key="GridCell.Tab.0.right/1920.23.1280.777/0.23.1920.1016@0.23.1920.1016" timestamp="1600349540396" />
+    <state width="1280" height="235" key="GridCell.Tab.0.right/1920.23.1280.777/0.23.1920.1016@1920.23.1280.777" timestamp="1600357057600" />
+    <state width="1280" height="238" key="GridCell.Tab.1.bottom" timestamp="1600402992235">
+      <screen x="0" y="23" width="1280" height="736" />
+    </state>
+    <state width="1280" height="238" key="GridCell.Tab.1.bottom/0.23.1280.736@0.23.1280.736" timestamp="1600402992235" />
+    <state width="1280" height="238" key="GridCell.Tab.1.center" timestamp="1600402992233">
+      <screen x="0" y="23" width="1280" height="736" />
+    </state>
+    <state width="1280" height="238" key="GridCell.Tab.1.center/0.23.1280.736@0.23.1280.736" timestamp="1600402992233" />
+    <state width="1280" height="238" key="GridCell.Tab.1.left" timestamp="1600402992232">
+      <screen x="0" y="23" width="1280" height="736" />
+    </state>
+    <state width="1280" height="238" key="GridCell.Tab.1.left/0.23.1280.736@0.23.1280.736" timestamp="1600402992232" />
+    <state width="1280" height="238" key="GridCell.Tab.1.right" timestamp="1600402992235">
+      <screen x="0" y="23" width="1280" height="736" />
+    </state>
+    <state width="1280" height="238" key="GridCell.Tab.1.right/0.23.1280.736@0.23.1280.736" timestamp="1600402992235" />
   </component>
   <component name="masterDetails">
     <states>
