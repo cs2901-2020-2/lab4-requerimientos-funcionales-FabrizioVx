@@ -10,7 +10,7 @@ public class  DNASequencer {
         logger.info("Starting sequencer...");
     }
 
-    public static String concatSubSequences(List<String> sequence){
+    public static String concatSubSequences(List<String> sequence) throws TooManyException {
         String pending = "";
         String firstSubSequence = sequence.get(FIRST_SEQUENCE);
         for (int iteratorOfSequence = 1; iteratorOfSequence < sequence.size(); ++iteratorOfSequence) {
@@ -26,7 +26,9 @@ public class  DNASequencer {
     public String calculate(List<String> part) throws TooManyException{
         String result;
         String firstSubSequence = part.get(FIRST_SEQUENCE);
-        if (firstSubSequence.length() > MAXIMUM_LENGTH_OF_SUBSEQUENCE || part.size() > MAXIMUM_LENGTH_OF_SEQUENCE) {
+        if (part.size() > MAXIMUM_LENGTH_OF_SEQUENCE){
+            throw new TooManyException("SECUENCIA ES DEMASIADO LARGA");
+        } else if (firstSubSequence.length() > MAXIMUM_LENGTH_OF_SUBSEQUENCE) {
             throw new TooManyException("LA SUBSECUENCIA ES MUY LARGA Y DE " + firstSubSequence.length() + " CARACTERES");
         } else {
             result = concatSubSequences(part);
